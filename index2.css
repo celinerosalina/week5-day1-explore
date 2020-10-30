@@ -10,6 +10,9 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 65px;
+  background-image: url(/week5-day1-explore/asset/orange2.jpeg);
+}
 }
 .container {
   position: relative;
@@ -20,21 +23,60 @@ h1 {
   font-size: 100px;
   z-index: 1;
   position: relative;
+  font-family: Arial, Helvetica, sans-serif; color: white;
 }
 
-.orangeimage {
+#content {
+  text-align: center;
+  width: 55%;
+  margin: 0 auto;
+}
+
+hr {
+  margin: auto; 
+}
+
+#skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 100%;
+}
+
+.card img {
+  width: 100%; 
+} 
+
+#content {
+  text-align: center;
+  width: 55%;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+}
+
+footer a {
+  margin: 20px;
+}
+
+/* .orangeimage {
   height: 200%;
   z-index: -1;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
-.centered {
+/* .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
