@@ -11,8 +11,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 65px;
-  background-image: url(/week5-day1-explore/asset/orange2.jpeg);
-}
+  background-image: url(./asset/orange2.jpeg);
 }
 .container {
   position: relative;
@@ -20,10 +19,19 @@ html {
   color: white;
 }
 h1 {
-  font-size: 100px;
+  font-size: 80px !important;
   z-index: 1;
   position: relative;
-  font-family: Arial, Helvetica, sans-serif; color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+h2 {
+  border-style: solid;
+  border-color: #646f30;
+  border-radius: 50px 20px;
+  padding: 10px;
+  margin: auto;
 }
 
 #content {
@@ -33,12 +41,13 @@ h1 {
 }
 
 hr {
-  margin: auto; 
+  margin: auto;
 }
 
 #skills {
   display: flex;
   justify-content: space-between;
+  border-color: #ffd262;
 }
 
 .card {
@@ -46,8 +55,8 @@ hr {
 }
 
 .card img {
-  width: 100%; 
-} 
+  width: 100%;
+}
 
 #content {
   text-align: center;
@@ -62,6 +71,20 @@ footer {
 
 footer a {
   margin: 20px;
+}
+
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+.center1 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 15%;
 }
 
 /* .orangeimage {
